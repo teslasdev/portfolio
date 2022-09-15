@@ -1,0 +1,40 @@
+.kKHDUui {
+    display: flex;
+    color: var(--white);
+    font-family: inherit;
+    width: 100%;
+}
+
+.skill_text {
+    flex:0 0 50%;
+    border-right: 1px solid var(--shade-2);
+    padding-right: 2rem;
+}
+
+.skill_text p {
+    line-height: 200%;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+
+}
+
+.BuhiOTR {
+    padding: 5rem 0 0 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.BuhiOTR span {
+    color: white;
+    padding: 8px 20px;
+    background: rgb(12, 3, 20);
+    font-size: 1em;
+    margin-bottom: 1.2em;
+    margin-right: 1.2em;
+    border-left: 2px solid rgb(214, 217, 59);
+    border-radius: 0px 5px 5px 0px;
+    letter-spacing: 0.08em;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}

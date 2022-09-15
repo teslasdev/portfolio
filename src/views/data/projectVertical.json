@@ -1,0 +1,26 @@
+[
+    
+    {
+        "id" : "1",
+        "title" : "Ecommerce Website" ,
+        "image" : "./projects/hifast.3e1c9817.png"  
+    },
+
+    {
+        "id" : "2",
+        "title" : "Crypto Website",
+        "image" : "./projects/hifast.3e1c9817.png"
+    },
+
+    {
+        "id" : "3",
+        "title" : "Portofolio Website",
+        "image" : "./projects/hifast.3e1c9817.png"
+    },
+
+    {
+        "id" : "4",
+        "title" : "Affiliate Website",
+        "image" : "./projects/hifast.3e1c9817.png"
+    }
+]

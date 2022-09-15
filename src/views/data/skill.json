@@ -1,0 +1,59 @@
+[
+    {
+        "id" : "1",
+        "type" : "React"
+    },
+
+    {
+        "id" : "2",
+        "type" : "Typescript"
+    },
+
+    {
+        "id" : "3",
+        "type" : "React Native"
+    },
+
+    {
+        "id" : "4",
+        "type" : "CSS"
+    },
+    {
+        "id" : "5",
+        "type" : "HTML"
+    },
+
+    {
+        "id" : "6",
+        "type" : "Vue"
+    },
+
+    {
+        "id" : "7",
+        "type" : "PHP/Laravel"
+    },
+
+    {
+        "id" : "8",
+        "type" : "Sass"
+    },
+    {
+        "id" : "9",
+        "type" : "Wordpress"
+    },
+
+    {
+        "id" : "10",
+        "type" : "Wix"
+    },
+
+    {
+        "id" : "11",
+        "type" : "Shopify"
+    },
+
+    {
+        "id" : "12",
+        "type" : "Webflow"
+    }
+]

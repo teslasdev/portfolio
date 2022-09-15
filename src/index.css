@@ -1,0 +1,47 @@
+/* Root Files */
+
+:root {
+  --primary: #120024;
+  --secondary: #d6d93b;
+  --white: #fff;
+  --shade-1: rgba(155,138,171,0.8);
+  --shade-2: rgba(155,138,171,0.3);
+  --secondary-2: rgba(214,217,59,0.2);
+  --side-pad: 9vw;
+  --mob-side-pad: 6vw;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Saira Semi Condensed",serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+body {
+  background-color: var(--primary);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 8px;
+  background-color: var(--primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::selection {
+  color: var(--primary);
+  background: var(--secondary);
+}

@@ -1,0 +1,166 @@
+.SHsDDsd {
+   min-height: 2px;
+   display: flex;
+   align-items: center;
+   -webkit-box-align: center;
+}
+
+
+.daSIiSs {
+    padding: 54px var(--side-pad);
+    background-color: var(--primary);
+    position: fixed;
+    left: 0;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    -webkit-box-pack: justify;
+    z-index: 100000;
+}
+
+/* Nav Layout */
+
+.navigationLayout {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* Logo */
+.Logo a {
+    display: flex;
+}
+
+.Logo a h6 {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px 0.4px;
+    transition: transform 0.2s ease 0s;
+}
+
+
+.Logo a h6.y {
+    color: var(--secondary);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px 0.4px;
+    transition: transform 0.2s ease 0s;
+}
+
+/* Menu */
+
+.ShSiSt {
+    display: flex;
+}
+
+    /* bar Styling */
+.shDFmVI {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: var(--shade-1);
+}
+
+.ShSiSt li {
+    margin-right: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.ShSiSt li:hover  span {
+    animation: navAnimate .5s ease-in;  
+    width: 100%;
+}
+
+.ShSiSt li span{
+    content: " ";
+    height: 3px;
+    width: 0%;
+    background-color: var(--secondary);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius:100px;
+    transition: all .4s;
+}
+
+.ShSiSt li:first-child {
+    margin-left: 60px;
+}
+
+.cIcsXw {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 30px;
+    height: 20px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.5s ease 0s;
+}
+
+.cIcsXw div {
+    height: 2px;
+    background-color: var(--white);
+    width: 100%;
+    border-radius: 8px;
+    transition: all 0.2s ease-out 0s;
+    position: unset;
+}
+
+.cIcsXw:hover  div.first {
+    width: 90%;
+    transition: all .3s ease-in;
+}
+
+.cIcsXw:hover  div.second {
+    width: 70%;
+    transition: all .3s ease-in;
+}
+
+.cIcsXw:hover  div.third {
+    width: 50%;
+    transition: all .3s ease-in;
+}
+
+.cIcsXw div:first-child {
+    width: 60%;
+    top: 0;
+}
+
+
+.cIcsXw div:nth-child(2) {
+    width: 100%;
+}
+
+.cIcsXw div.third {
+    width: 50%;
+    bottom: 0;
+    height: 2px;
+}
+
+
+@keyframes navAnimate {
+    0% {
+        width: 10%;
+    }
+
+    10% {
+        width: 20%;
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}

@@ -1,0 +1,108 @@
+.project-horizon {
+    padding: 20px var(--shade-1);
+}
+.ghKDMbi {
+    background: rgb(24, 2, 47);
+    border: 1px solid rgba(150, 140, 127, 0.3);
+    border-radius: 16px;
+    padding: 48px 0px 0px 48px;
+    color: var(--white);
+    display: flex;
+    margin: 32px 0px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    min-height: 2px;
+    align-items: flex-end;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+.ghKDMbi .texts {
+    padding-right: 48px;
+    padding-bottom: 48px;
+    width: 50%;
+    height: 450px;
+}
+
+.ghKDMbi .texts h3 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 59px;
+    font-family: Oswald;
+    letter-spacing: 0.08em;
+}
+
+.ghKDMbi .texts p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 219.2%;
+    letter-spacing: 0.08em;
+    margin-top: 24px;
+}
+
+.Kl89ba6 {
+    margin: 2rem 0;
+}
+
+.ghKDMbi .Kl89ba6 span {
+    background: rgba(214, 217, 59, 0.2);
+    padding: 6px 12px;
+    margin-right: 8px;
+    border-radius: 5px;
+    color: var(--white);
+    
+}
+
+.jLLMBy9 {
+    background-color: transparent;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 2px;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    outline: none;
+    border: none;
+    color: var(--secondary);
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+
+.project-arrows {
+    display: flex;
+    align-self: center;
+}
+
+.jLLMBy9::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 20%;
+    height: 100%;
+    background: rgba(214, 217, 59, 0.27);
+    border-radius: 5px;
+    transition: width 1s cubic-bezier(0.24, 0.97, 0.75, 0.2) 0s;  
+}
+.jLLMBy9::before:hover  {
+    width: 100%;    
+}
+
+.project-image {
+    width: 50%;
+}
+.project-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% center;
+    object-position: left top;
+    display: flex;
+}
+

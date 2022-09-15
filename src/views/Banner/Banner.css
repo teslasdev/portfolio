@@ -1,0 +1,176 @@
+.BsHudUt {
+    padding: 180px var(--side-pad);
+    display: flex;
+}
+
+.sJs0ubT img {
+    height: 500px;
+    margin-right: 110px;
+}
+
+
+.adCgGfi h1  {
+    background-image: linear-gradient(0deg, rgb(194, 189, 235), rgb(222, 226, 93), rgb(178, 174, 213), rgb(196, 197, 106), rgb(186, 184, 204), rgb(194, 189, 235), rgb(231, 233, 135));
+    color: transparent;
+    background-size: 100% 600%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5em;
+    line-height: 150%;
+    font-family: 'Oswald';
+    font-weight: 500;
+    animation: 14s linear 0s infinite normal none running animateBg;
+}
+
+.adCgGfi p {
+    color: var(--white);
+    font-size: 18px;
+    margin-top: 40px;
+    line-height: 250%;
+}
+.uISHBjI {
+    display: flex;
+    justify-content: space-between;
+}
+.uISHBjI p {
+    color: var(--white);
+    margin-top: 30px;
+}
+
+.uISHBjI p a {
+    color: var(--secondary);
+    
+}
+.dGaWtyi {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.dGaWtyi .aUircNl {
+    content: "";
+    height: 150px;
+    width: 1px;
+    background-color: var(--shade-1);
+    position: relative;
+}
+
+.aUircNl .yUdbHkz {
+    content: "";
+    height: 64px;
+    width: 2px;
+    background-color: var(--white);
+    border-radius: 20px;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+
+
+.jSHudBm .arrow-1 svg path {
+  
+   animation-name: scroll-arrow-1;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   position: absolute;
+} 
+
+.jSHudBm .arrow-2 svg path {
+
+    animation-name: scroll-arrow-2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+.jSHudBm .arrow-3 svg path {
+   
+    animation-name: scroll-arrow-3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: absolute;
+ }
+
+
+@keyframes animateBg {
+    0% {
+        background-image: linear-gradient(0deg, rgb(194, 189, 235), rgb(222, 226, 93), rgb(178, 174, 213), rgb(196, 197, 106), rgb(186, 184, 204), rgb(194, 189, 235), rgb(231, 233, 135));
+    }
+
+    10% {
+       background-image: linear-gradient(0deg, rgb(222, 222, 93), rgb(222, 226, 93), rgb(178, 174, 213), rgb(196, 197, 106), rgb(186, 184, 204), rgb(194, 189, 235), rgb(231, 233, 135));
+    }
+    20% {
+        background-image: linear-gradient(0deg, rgb(222, 226, 93), rgb(222, 226, 93), rgb(222, 226, 93), rgb(196, 197, 106), rgb(186, 184, 204), rgb(194, 189, 235), rgb(231, 233, 135));
+    }
+
+    40% {
+        background-image: linear-gradient(0deg, rgb(222, 226, 93), rgb(222, 226, 93), rgb(222, 226, 93), rgb(196, 197, 106),  rgb(196, 197, 106), rgb(194, 189, 235), rgb(231, 233, 135));
+    }
+
+    50% {
+        background-image: linear-gradient(0deg, rgb(222, 226, 93), rgb(222, 226, 93), rgb(222, 226, 93), rgb(196, 197, 106),  rgb(196, 197, 106), rgb(196, 197, 106), rgb(194, 189, 235));
+    }
+
+    70% {
+        background-image: linear-gradient(0deg, rgb(194, 189, 235), rgb(222, 226, 93), rgb(222, 226, 93), rgb(196, 197, 106),  rgb(196, 197, 106), rgb(196, 197, 106), rgb(194, 189, 235));
+    }
+    80% {
+        background-image: linear-gradient(0deg, rgb(194, 189, 235), rgb(194, 189, 235), rgb(222, 226, 93), rgb(196, 197, 106),  rgb(194, 189, 235), rgb(196, 197, 106), rgb(194, 189, 235));
+    }
+    90% {
+        background-image: linear-gradient(0deg, rgb(194, 189, 235),  rgb(196, 197, 106), rgb(194, 189, 235), rgb(196, 197, 106),  rgb(194, 189, 235), rgb(196, 197, 106), rgb(194, 189, 235));
+    }
+
+    100% {
+        background-image: linear-gradient(0deg, rgb(194, 189, 235), rgb(222, 226, 93), rgb(178, 174, 213), rgb(196, 197, 106), rgb(186, 184, 204), rgb(194, 189, 235), rgb(231, 233, 135));
+    }
+
+
+}
+
+@keyframes scroll {
+    0% {
+        top: 0%;
+    }
+    50% {
+        top: 40%;
+    }
+    100% {
+        top: 60%;
+    }
+   
+    
+    
+}
+
+@keyframes scroll-arrow-1 {
+    from {
+        stroke: #fff;
+    }
+
+    to {
+        stroke: rgba(250, 249, 249, 0.8);
+    }
+}
+
+@keyframes scroll-arrow-2 {
+    from {
+        stroke: rgba(232, 232, 232, 0.3);
+    }
+
+    to {
+        stroke: rgba(255, 255, 255, 1);
+    }
+}
+
+@keyframes scroll-arrow-3 {
+    from {
+        stroke: rgba(232, 232, 232, 0.1);
+    }
+
+    to {
+        stroke: rgba(255, 255, 255, 1);
+    }
+}
