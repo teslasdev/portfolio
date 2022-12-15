@@ -5,6 +5,7 @@ import Banner from './views/Banner/Banner'
 import Sections from './views/section/Sections'
 import Blog from './views/Blog/Blog'
 import Footer from './views/Footer/Footer'
+import './views/Responsive/Tablet.css';
 
 const App = () => {
   return (
