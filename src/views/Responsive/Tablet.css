@@ -1,126 +1,149 @@
 @media (max-width: 900px) {
+  /* Navigation */
+  .daSIiSs {
+    padding: 36px var(--mob-side-pad);
+  }
 
-    /* Navigation */
-    .daSIiSs {
-        padding: 36px var(--mob-side-pad);
-    }
+  .ShSiSt {
+    display: none;
+  }
 
-    .ShSiSt {
-        display: none;
-    }
+  .shDFmVI {
+    justify-content: flex-end;
+  }
 
-    .shDFmVI {
-        justify-content: flex-end;
-    }
+  /* Banner */
 
+  .BsHudUt {
+    padding: 120px var(--mob-side-pad);
+  }
 
-    /* Banner */
+  .sJs0ubT img {
+    display: none;
+  }
 
-    .BsHudUt {
-        padding: 120px var(--mob-side-pad);
-    }
+  .dHuhsIO h1 {
+    font-size: 6.375em;
+  }
 
-    .sJs0ubT img {
-        display: none;
-    }
+  /* Sections */
 
-    .dHuhsIO h1 {
-        font-size: 6.375em;
-    }
+  .fhJDKDh {
+    padding: 0 var(--mob-side-pad);
+  }
 
-     /* Sections */
+  .ghKDMbi {
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px 0px 20px;
+  }
 
-    .fhJDKDh {
-        padding: 0 var(--mob-side-pad);
-    }
+  .ghKDMbi .texts {
+    padding-right: 48px;
+    padding-bottom: 48px;
+    width: 100%;
+  }
 
-    .ghKDMbi {
-        flex-direction: column;
-        align-items: center;
-        padding: 25px 0px 0px 20px;
+  .project-image {
+    width: 100%;
+  }
 
-    }
+  .sections-vertical {
+    flex-direction: column;
+  }
 
-    .ghKDMbi .texts {
-        padding-right: 48px;
-        padding-bottom: 48px;
-        width: 100%;
-    }
+  .projects-vertical {
+    padding: 20px var(--shade-1);
+    width: 100%;
+  }
 
-    .project-image {
-        width: 100%;
-    }
+  /* Skills */
+  .kKHDUui {
+    flex-direction: column;
+  }
+  .BuhiOTR {
+    padding: 4rem 0 1rem 0rem;
+  }
 
-    .sections-vertical {
-        flex-direction: column;
-    }
+  /* Feedback */
+  .kLgniI {
+    padding: 80px var(--mob-side-pad) 0px var(--mob-side-pad);
+  }
 
-    .projects-vertical {
-        padding: 20px var(--shade-1);
-        width: 100%;
-    }
+  .review-box {
+    flex-direction: column;
+    gap: 7rem;
+  }
 
-    /* Skills */
-    .kKHDUui {
-        flex-direction: column;
-    }
-    .BuhiOTR {
-        padding: 4rem 0 1rem 0rem;
-    }
+  .lIJBGyG {
+    width: 100%;
+  }
 
+  /* Blog  */
+  .kL9hBHB {
+    margin: 20px var(--mob-side-pad);
+    padding: 15px;
+  }
+  .kL9hBHB h4 {
+    width: 100%;
+  }
 
-    /* Feedback */
-    .kLgniI {
-        padding: 80px var(--mob-side-pad) 0px var(--mob-side-pad);
-    }
+  /* Footer */
+  .JBbIOml {
+    padding: 50px var(--mob-side-pad);
+  }
 
-    .review-box {
-        flex-direction: column;
-        gap: 7rem;
-    }
+  .kkzduM {
+    padding: 20px;
+  }
 
-    .lIJBGyG {
-        width: 100%;
-        
-    }
+  .kkzduM section .text {
+    width: 100%;
+  }
 
-    /* Blog  */
-    .kL9hBHB {
-        margin: 20px var(--mob-side-pad);
-    }
-    .kL9hBHB h4 {
-        width: 100%;
-    }
+  .kkzduM section h1 {
+    background: linear-gradient(
+      90deg,
+      rgb(255, 255, 255) 0%,
+      rgb(214, 217, 59) 35.29%,
+      rgb(255, 255, 255) 78.31%
+    );
+    color: transparent;
+    /* background-size: 100% 600%; */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2em;
+  }
 
-    /* Footer */
-    .JBbIOml {
-        padding: 50px var(--mob-side-pad);
-    }
+  .ghKDMbi .texts h3 {
+    font-size: 30px;
+  }
 
-    .kkzduM {
-        padding: 1.5em 2em 56px;
-    }
+  .ghKDMbi .texts p {
+    font-size: 14px;
+  }
 
-    .kkzduM section .text {
-        width: 100%;
-    }
+  .project-image img {
+    height: 300px;
+  }
 
-    .kkzduM section h1 {
-        background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(214, 217, 59) 35.29%, rgb(255, 255, 255) 78.31%);
-        color: transparent;
-        /* background-size: 100% 600%; */
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 2.5em;
-    }
+  .ghKDMbi-vertical .texts h3 {
+    font-size: 30px;
+  }
 
-    .gomloVu {
-        margin: 0 0.3rem;
-    }
+  .ghKDMbi-vertical .texts p {
+    font-size: 14px;
+  }
+  .project-image-vertical img {
+    height: 300px;
+  }
 
-
+  .ghKDMbi-vertical {
    
-
-
+    padding: 25px 0px 0px 20px;
+  }
+  .gjakmO {
+    flex-direction: column;
+  }
 }

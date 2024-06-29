@@ -23,6 +23,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    gap: 10px;
 }
 
 .BuhiOTR span {
@@ -30,8 +31,6 @@
     padding: 8px 20px;
     background: rgb(12, 3, 20);
     font-size: 1em;
-    margin-bottom: 1.2em;
-    margin-right: 1.2em;
     border-left: 2px solid rgb(214, 217, 59);
     border-radius: 0px 5px 5px 0px;
     letter-spacing: 0.08em;

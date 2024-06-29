@@ -39,14 +39,15 @@
 }
 
 .daNnij {
-    transform: rotateY(180deg);
-    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .kLb09hB {
     display: flex;
     width: 50%;
     justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
 .kkzduM div.hor-line {
@@ -67,6 +68,13 @@
 
 .gjakmO .socials {
     display: flex;
+    gap: 20px;
+}
+
+.footer-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .gjakmO  p {
@@ -75,7 +83,4 @@
     color: #777;
 }
 
-.gomloVu {
-    margin: 0 .7rem;
-}
 
