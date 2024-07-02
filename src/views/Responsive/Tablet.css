@@ -15,7 +15,7 @@
   /* Banner */
 
   .BsHudUt {
-    padding: 120px var(--mob-side-pad);
+    padding: 100px var(--mob-side-pad);
   }
 
   .sJs0ubT img {
@@ -140,10 +140,20 @@
   }
 
   .ghKDMbi-vertical {
-   
     padding: 25px 0px 0px 20px;
   }
   .gjakmO {
     flex-direction: column;
+  }
+  .adCgGfi p {
+    line-height: 200%;
+  }
+  .dGaWtyi .aUircNl {
+    content: "";
+    height: 100px;
+  }
+  .aUircNl .yUdbHkz {
+    content: "";
+    height: 50px;
   }
 }

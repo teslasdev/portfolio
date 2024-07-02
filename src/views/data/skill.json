@@ -1,26 +1,26 @@
 [
     {
         "id" : "1",
-        "type" : "React"
+        "type" : "HTML"
     },
 
     {
         "id" : "2",
-        "type" : "Typescript"
+        "type" : "CSS"
     },
 
     {
         "id" : "3",
-        "type" : "React Native"
+        "type" : "Styled Components"
     },
 
     {
         "id" : "4",
-        "type" : "CSS"
+        "type" : "Javascript"
     },
     {
         "id" : "5",
-        "type" : "HTML"
+        "type" : "Typescript"
     },
 
     {
@@ -39,21 +39,21 @@
     },
     {
         "id" : "9",
-        "type" : "Wordpress"
+        "type" : "React Native"
     },
 
     {
         "id" : "10",
-        "type" : "Wix"
+        "type" : "Tailwind"
     },
 
     {
         "id" : "11",
-        "type" : "Shopify"
+        "type" : "GraphQL"
     },
 
     {
         "id" : "12",
-        "type" : "Webflow"
+        "type" : "Chakra Ui"
     }
 ]

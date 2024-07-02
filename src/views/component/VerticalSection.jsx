@@ -4,7 +4,7 @@ import './VerticalSection.css'
 
 const VerticalSection = (props) => {
   return (
-    <div className='projects-vertical' data-aos="flip-up">
+    <div className='projects-vertical' data-aos="slide-up">
         <div className='ghKDMbi-vertical'>
             <div className='texts'>
               <h3>{props.title}</h3>
